@@ -1,3 +1,4 @@
 # dpentecost.github.io
 
-A true novice here, working to get a place for simple web access of some 3D assets.
+Testing some of the work of the Lower Eastside Girls Club.
+Unity work from the Sound and Space programs, in the East Village Planetarium.
