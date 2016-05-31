@@ -79,7 +79,7 @@ p {
 <script>
 var accessToken = "7930f1e841fb689a7c6cf79e7bd43f697367d72c";
 var deviceID = "23003f000247343339373536";
-spark.on('login', function(response) {   
+particle.on('login', function(response) {   
     console.log(response);   
     });
 
@@ -92,9 +92,9 @@ var callback = function(err, data) {
     }
 };
 function functionCall(functionName, functionArgument){
-spark.callFunction(deviceID, functionName, functionArgument, callback);  
+particle.callFunction(deviceID, functionName, functionArgument, callback);  
 }
-spark.login({ accessToken: accessToken });
+particle.login({ accessToken: accessToken });
 </script>
 </center>
 </body>
