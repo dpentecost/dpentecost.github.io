@@ -79,7 +79,7 @@ p {
 <script>
 var accessToken = "7930f1e841fb689a7c6cf79e7bd43f697367d72c";
 var deviceID = "23003f000247343339373536";
-particle.on('login', function(response) {   
+Particle.on('login', function(response) {   
     console.log(response);   
     });
 
@@ -92,9 +92,9 @@ var callback = function(err, data) {
     }
 };
 function functionCall(functionName, functionArgument){
-particle.callFunction(deviceID, functionName, functionArgument, callback);  
+Particle.callFunction(deviceID, functionName, functionArgument, callback);  
 }
-particle.login({ accessToken: accessToken });
+Particle.login({ accessToken: accessToken });
 </script>
 </center>
 </body>
